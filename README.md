@@ -41,7 +41,7 @@ Follow these steps to get your development env running:
 ## Running the Application
 
 Run the application using the Flask built-in server:
-`OPENWEATHER_API_KEY = 'your_api_key_here'`
+`python app.py`
 
 ## Usage
 
