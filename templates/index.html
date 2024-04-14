@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Weather App</h1>
+        <p>Please enter your city, state code (optional), and country code (optional) to get the current weather:</p>
+        <form action="/weather" method="post">
+            <input type="text" id="city" name="city" placeholder="City" required>
+            <input type="text" id="state" name="state" placeholder="State Code (e.g., CA)">
+            <input type="text" id="country" name="country" placeholder="Country Code (e.g., US)">
+            <button type="submit">Get Weather</button>
+        </form>
+    </div>
+</body>
+</html>
