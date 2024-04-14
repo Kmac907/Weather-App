@@ -23,7 +23,7 @@ You will also need an API key from OpenWeatherMap, which you can obtain by signi
 Follow these steps to get your development env running:
 
 1. Clone the repository:
-   `git clone https://github.com/yourusername/flask-weather-app.git`
+   `git clone https://github.com/Kmac907/Weather-App.git`
 
 2. Navigate to the project directory:
    `cd flask-weather-app`
