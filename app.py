@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-OPENWEATHER_API_KEY = 'your_openweathermap_api_key'
+OPENWEATHER_API_KEY = 'your_api_key_here'
 
 @app.route('/')
 def index():
