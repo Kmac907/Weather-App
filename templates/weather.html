@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Weather in {{ weather['city'] }}{% if weather['state'] %}, {{ weather['state'] }}{% endif %}, {{ weather['country'] }}</h1>
+    <p>🌡️ Temperature: {{ weather['temperature'] }}°F</p>
+    <p>🥵 Feels Like: {{ weather['feels_like'] }}°F</p>
+    <p>☁️ Weather: {{ weather['description'] }}</p>
+    <p>💧 Humidity: {{ weather['humidity'] }}%</p>
+    <p>🌬️ Wind Speed: {{ weather['wind_speed'] }} mph</p>
+    <img src="http://openweathermap.org/img/wn/{{ weather['icon'] }}.png" alt="Weather Icon">
+    <a href="/">Back</a>
+</body>
+</html>
