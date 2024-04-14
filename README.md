@@ -2,6 +2,10 @@
 
 This Flask Weather App allows users to retrieve real-time weather information by entering a city name, along with optional state and country codes. The app queries the OpenWeatherMap API to display current weather data including temperature, humidity, wind speed, and more. It's built using Flask, a lightweight WSGI web application framework.
 
+![image](https://github.com/Kmac907/Weather-App/assets/120307903/96727ede-0699-4ac4-a4bf-38c9f33a9c01)
+
+![image](https://github.com/Kmac907/Weather-App/assets/120307903/4eec149b-b687-4f6f-b235-551d04aff888)
+
 ## Features
 
 - **User Input for Location**: Users can specify city, state, and country to accurately retrieve weather data.
