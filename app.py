@@ -35,7 +35,7 @@ def weather():
         return render_template('weather.html', weather=weather_info)
     else:
         return jsonify({'error': 'Weather data not found'}), 404
-"""
+
 if __name__ == '__main__':
     app.run(debug=True)
-"""
+
