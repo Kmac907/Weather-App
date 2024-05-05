@@ -5,7 +5,6 @@ click==8.1.7
 cryptography==3.4.8
 dbus-python==1.2.18
 Flask==3.0.3
-gyp==0.1
 httplib2==0.20.2
 idna==3.7
 importlib-metadata==4.6.4
