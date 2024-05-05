@@ -4,18 +4,10 @@
     {
       "src": "app.py",
       "use": "@vercel/python",
-      "config": {
-        "pythonVersion": "3.8"
-      }
+      "config": {"pythonVersion": "3.8"}
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/app.py"
-    }
-  ],
-  "env": {
-    "OPENWEATHER_API_KEY": "c50d1c5d8c38ff4ac018d3b7e52a45b9"
-  }
+    {"src": "/(.*)", "dest": "/app.py"}
+  ]
 }
